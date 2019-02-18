@@ -8,6 +8,8 @@ void setup() {
 void draw() {
   background(0);
   translate(width/2 - 100,height/2);
+  stroke(175, 100, 220);
+  line(0,0,250,0);
   noFill();
   stroke(255);
   beginShape();
